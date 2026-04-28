@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-x
+  description: Python app that displays time - named python-app-x
+  annotations:
+    github.com/project-slug: LuC-9/python-app-x
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
